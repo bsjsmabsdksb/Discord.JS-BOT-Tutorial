@@ -5,7 +5,7 @@ module.exports ={
         const amount = parseInt(args[0]) + 1;
 
         if (isNaN(amount)) {
-            return message.channel.send('Please Enter A Number.')
+            return message.channel.send('Please Enter An amount.')
         } else if (amount <= 1 || amount > 100) {
             return message.channel.send('You Can Only Delete Messages From 1 To 99.')
         }
